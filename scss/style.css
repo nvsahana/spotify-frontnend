@@ -1,0 +1,116 @@
+@import url("/font-awesome-4.6.3/css/font-awesome.min.css");
+body {
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.fa-spotify:before {
+  content: "\f1bc";
+  color: #18d860;
+}
+.navbar-brand {
+  padding: 13px 15px !important;
+  font-size: 2.5rem !important;
+}
+.navbar-dark .navbar-brand {
+  width: 50% !important;
+}
+.navbar-nav > li {
+  padding-right: 2rem !important;
+}
+li > a:hover {
+  color: #1ed760 !important;
+}
+li > a {
+  color: #ebebeb !important;
+  font-weight: bold;
+}
+.row {
+  flex-wrap: nowrap !important;
+}
+
+.list-unstyled > li > i {
+  padding: 1rem;
+  font-size: 2rem;
+}
+.container {
+  margin-right: 6rem !important;
+  margin-left: 6rem !important;
+}
+.Logogulu > i {
+  font-size: 4rem !important;
+  color: #96a09a;
+}
+.Logogulu > i:hover {
+  color: #00f161 !important;
+}
+.navbar {
+  margin-bottom: 0 !important;
+}
+.main {
+  height: 60vw !important;
+  transform: translate(2rem, 14rem);
+  font-size: 10rem !important;
+}
+.parentdiv {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+}
+.parentdiv > div {
+  padding: 1rem;
+  padding-right: 6rem;
+}
+.parentdiv .children {
+  padding-top: 3.5rem;
+}
+.footlist {
+  list-style: none;
+  padding: 0;
+}
+.child3 {
+  padding-right: 3rem;
+}
+.children .footlist li p a {
+  color: white !important;
+}
+.parentdiv .children .footlist li p a:hover {
+  color: #1ed760 !important;
+  text-decoration: none;
+}
+.footerlogo > p {
+  color: white;
+}
+main {
+  background-image: url("figma.png");
+  height: 1000px;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .parentdiv {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 768px) {
+  main {
+    height: fit-content;
+    width: 100%;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .logclass {
+    padding-left: 7rem;
+  }
+  .Logogulu > i {
+    padding-right: 2.5rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Logogulu > i {
+    padding-right: 0.5rem;
+  }
+}
+.Logogulu > i:hover {
+  cursor: pointer;
+}
